@@ -1,0 +1,4 @@
+# The list of file to get content from
+files:
+- /var/svn/main/db/current
+- /tmp/test
