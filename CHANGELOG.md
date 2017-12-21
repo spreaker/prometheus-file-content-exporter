@@ -1,6 +1,6 @@
 # Changelog
 
-### 0.1.2 (2017-12-21)
+### 0.1.3 (2017-12-21)
 
 - Config via environment variable
 - Command installed with package
