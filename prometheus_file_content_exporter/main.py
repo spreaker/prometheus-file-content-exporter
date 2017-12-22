@@ -44,7 +44,7 @@ class FileContentMetricsCollector:
             yield gauge
 
     @staticmethod
-    def _check_files(file):
+    def _check_file(file):
         with open(file, 'r') as f:
             content = f.readline()
         return content
@@ -53,7 +53,7 @@ class FileContentMetricsCollector:
         data = dict()
         for file in self.files:
             try:
-                value = int(self._check_files(file))
+                value = float(self._check_file(file))
             except ValueError:
                 log.error(f"Couldn't get int from file {file}!")
                 continue

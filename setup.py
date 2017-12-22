@@ -9,7 +9,7 @@ if sys.version_info.major < 3:
 setup(
   name='prometheus-file-content-exporter',
   packages=['prometheus_file_content_exporter'],
-  version='0.2.0',
+  version='0.2.1',
   description='Prometheus file content exporter',
   author='Marcin Brański',
   author_email='marcin.branski@spreaker.com',
