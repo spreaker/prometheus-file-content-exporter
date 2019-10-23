@@ -17,7 +17,7 @@ setup(
   keywords=['prometheus', 'exporter'],
   classifiers=[],
   python_requires=' >= 3',
-  install_requires=['prometheus_client==0.0.21', 'python-json-logger==0.1.5', 'PyYAML==3.12'],
+  install_requires=['prometheus_client==0.0.21', 'python-json-logger==0.1.5', 'PyYAML==5.1'],
   entry_points={
     'console_scripts': [
       'prometheus-file-content-exporter = prometheus_file_content_exporter.main:main',
